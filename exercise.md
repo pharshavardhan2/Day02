@@ -24,3 +24,16 @@
   4. Layout: computes where the nodes actually will be on screen in relation to other elements taking into consideration of css properties.
   5. Paint: computes bitmaps and composites so that an image of the layout can be produced i.e, to give visual output of the page.
 
+#### Sample code session using `typeof`
+- output of executing that statement in browser console is given as comment beside that line.
+```js
+typeof(1);               // "number"
+typeof(1.1);             // "number"
+typeof('1.1');           // "string"
+typeof(true);            // "boolean"
+typeof(null);            // "object"
+typeof(undefined);       // "undefined"
+typeof([]);              // "object"
+typeof({});              // "object"
+typeof(NaN);             // "number"
+```
